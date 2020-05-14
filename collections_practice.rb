@@ -48,7 +48,7 @@ def add_s(arrays)
     if  word != arrays[1]
         word + "s"
     else
-      false
+      nothing
     end
   end
 end
