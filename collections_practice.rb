@@ -45,7 +45,7 @@ end
 
 def add_s(arrays)
   arrays.collect do |word|
-    if  word != word.index(1)
+    if  word != arrays[1]
         word + "s"
     else
       false
