@@ -44,9 +44,8 @@ def sum_array(arrays)
 end
 
 def add_s(arrays)
-  arrays.each_with_index.collect do |word|
-    if word[1] == word[1]
-      false
+  arrays.collect do |word|
+    if word == word[1]
     else
       word + "s"
     end
